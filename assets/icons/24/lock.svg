@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon/24/Lock">
+<g id="Lock">
+<path id="Rectangle 2 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M3 13C3 10.2386 5.23858 8 8 8H16C18.7614 8 21 10.2386 21 13V17C21 19.7614 18.7614 22 16 22H8C5.23858 22 3 19.7614 3 17V13ZM8 10C6.34315 10 5 11.3431 5 13V17C5 18.6569 6.34315 20 8 20H16C17.6569 20 19 18.6569 19 17V13C19 11.3431 17.6569 10 16 10H8Z" fill="#4F3422"/>
+<path id="Line (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M12 13C12.5523 13 13 13.4477 13 14L13 16C13 16.5523 12.5523 17 12 17C11.4477 17 11 16.5523 11 16L11 14C11 13.4477 11.4477 13 12 13Z" fill="#4F3422"/>
+<path id="Rectangle 4 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M7 7C7 4.23858 9.23858 2 12 2C14.7614 2 17 4.23858 17 7V9H15V7C15 5.34315 13.6569 4 12 4C10.3431 4 9 5.34315 9 7V9H7V7Z" fill="#4F3422"/>
+</g>
+</g>
+</svg>

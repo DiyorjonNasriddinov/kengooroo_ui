@@ -1,3 +1,5 @@
 library kengooroo_ui;
 
-export 'src/app.dart';
+export 'app/app.dart';
+export 'assets/assets.dart';
+export 'components/chip.dart';

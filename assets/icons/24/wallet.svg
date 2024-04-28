@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon/24/Wallet">
+<g id="Wallet">
+<path id="Rectangle 2 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M1 11C1 7.68629 3.68629 5 7 5H17C20.3137 5 23 7.68629 23 11V17C23 20.3137 20.3137 23 17 23H7C3.68629 23 1 20.3137 1 17V11ZM7 7C4.79086 7 3 8.79086 3 11V17C3 19.2091 4.79086 21 7 21H17C19.2091 21 21 19.2091 21 17V11C21 8.79086 19.2091 7 17 7H7Z" fill="#4F3422"/>
+<path id="Rectangle 4 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M18 6.50002C18 4.81029 16.4491 3.54618 14.7941 3.88692L6.19339 5.65765C4.33415 6.04044 3 7.67725 3 9.57548V13H1V9.57548C1 6.72813 3.00123 4.27291 5.79008 3.69874L14.3908 1.928C17.2865 1.33183 20 3.54359 20 6.50002H18Z" fill="#4F3422"/>
+<path id="Line (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M5 17.5C5 16.9477 5.44772 16.5 6 16.5H12C12.5523 16.5 13 16.9477 13 17.5C13 18.0523 12.5523 18.5 12 18.5H6C5.44772 18.5 5 18.0523 5 17.5Z" fill="#4F3422"/>
+<path id="Rectangle 3 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M14 14C14 12.067 15.567 10.5 17.5 10.5H23V17.5H17.5C15.567 17.5 14 15.933 14 14ZM17.5 12.5C16.6716 12.5 16 13.1716 16 14C16 14.8284 16.6716 15.5 17.5 15.5H21V12.5H17.5Z" fill="#4F3422"/>
+<path id="Line_194 (Stroke)" fill-rule="evenodd" clip-rule="evenodd" d="M16.5 14C16.5 13.4477 16.9477 13 17.5 13H17.7C18.2523 13 18.7 13.4477 18.7 14C18.7 14.5523 18.2523 15 17.7 15H17.5C16.9477 15 16.5 14.5523 16.5 14Z" fill="#4F3422"/>
+</g>
+</g>
+</svg>

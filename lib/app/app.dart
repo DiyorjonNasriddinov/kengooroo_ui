@@ -1,4 +1,4 @@
-import 'package:flutter/widgets.dart';
+import 'package:flutter/material.dart';
 
 class KengoorooApp extends StatefulWidget {
   const KengoorooApp({super.key});
@@ -10,6 +10,6 @@ class KengoorooApp extends StatefulWidget {
 class _KengoorooAppState extends State<KengoorooApp> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp.router();
   }
 }
