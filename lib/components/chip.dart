@@ -49,10 +49,7 @@ class KuiChip extends StatelessWidget {
                   : null,
               borderRadius: selectedLineRadius,
             ),
-            child: DefaultTextStyle(
-              style: const TextStyle(color: Colors.white),
-              child: Center(child: child),
-            ),
+            child: Center(child: child),
           ),
         ),
         Positioned.fill(

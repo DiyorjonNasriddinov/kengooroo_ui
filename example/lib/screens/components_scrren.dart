@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:kengooroo_ui/components/buttons.dart';
-import 'package:kengooroo_ui/components/chip.dart';
+import 'package:flutter/widgets.dart';
+import 'package:kengooroo_ui/kengooroo_ui.dart';
 
 class ComponentsScreen extends StatefulWidget {
   const ComponentsScreen({super.key});
@@ -19,6 +19,29 @@ class _ComponentsScreenState extends State<ComponentsScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            RichText(
+              text:
+                  TextSpan(text: 'Tilni ', style: KuiTextStyles.h2, children: [
+                TextSpan(
+                  text: 'tanlang',
+                  style: KuiTextStyles.h2.copyWith(color: KuiColors.yellow60),
+                )
+              ]),
+            ),
+            const SizedBox(height: 10),
+            RichText(
+              text: TextSpan(
+                  text: 'Выберите ',
+                  style: KuiTextStyles.h2,
+                  children: [
+                    TextSpan(
+                      text: 'язык',
+                      style:
+                          KuiTextStyles.h2.copyWith(color: KuiColors.yellow60),
+                    )
+                  ]),
+            ),
+            const SizedBox(height: 30),
             KuiChip(
               isSelected: isSelected,
               onPressed: () {
@@ -28,7 +51,7 @@ class _ComponentsScreenState extends State<ComponentsScreen> {
               },
               child: const Text("English"),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 10),
             SizedBox(
               height: 56,
               child: KuiElevatedButton(
@@ -36,6 +59,19 @@ class _ComponentsScreenState extends State<ComponentsScreen> {
                 child: const Text('hello'),
               ),
             ),
+            const SizedBox(height: 10),
+            const KuiTextField(
+              label: 'Label',
+              hintText: 'Input',
+              supportingText: 'Supporting text',
+            ),
+            const SizedBox(height: 10),
+            KuiTextButton(
+              onPressed: () {},
+              child: const Text("Hello"),
+            ),
+            const SizedBox(height: 10),
+            KuiPinput()
           ],
         ),
       ),

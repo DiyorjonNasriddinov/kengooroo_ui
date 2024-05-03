@@ -10,11 +10,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  pinput: ^4.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -43,38 +45,38 @@ flutter:
   fonts:
     - family: Unbounded
       fonts:
-        - asset: assets/fonts/unbounded/Unbounded-ExtraLight.ttf
+        - asset: lib/fonts/unbounded/Unbounded-ExtraLight.ttf
           weight: 200
-        - asset: assets/fonts/unbounded/Unbounded-Light.ttf
+        - asset: lib/fonts/unbounded/Unbounded-Light.ttf
           weight: 300
-        - asset: assets/fonts/unbounded/Unbounded-Regular.ttf
+        - asset: lib/fonts/unbounded/Unbounded-Regular.ttf
           weight: 400
-        - asset: assets/fonts/unbounded/Unbounded-Medium.ttf
+        - asset: lib/fonts/unbounded/Unbounded-Medium.ttf
           weight: 500
-        - asset: assets/fonts/unbounded/Unbounded-SemiBold.ttf
+        - asset: lib/fonts/unbounded/Unbounded-SemiBold.ttf
           weight: 600
-        - asset: assets/fonts/unbounded/Unbounded-Bold.ttf
+        - asset: lib/fonts/unbounded/Unbounded-Bold.ttf
           weight: 700
-        - asset: assets/fonts/unbounded/Unbounded-ExtraBold.ttf
+        - asset: lib/fonts/unbounded/Unbounded-ExtraBold.ttf
           weight: 800
-        - asset: assets/fonts/unbounded/Unbounded-Black.ttf
+        - asset: lib/fonts/unbounded/Unbounded-Black.ttf
           weight: 900
 
     - family: TildaSans
       fonts:
-        - asset: assets/fonts/tilda_sans/TildaSans-Light.ttf
+        - asset: lib/fonts/tilda_sans/TildaSans-Light.ttf
           weight: 300
-        - asset: assets/fonts/tilda_sans/TildaSans-Regular.ttf
+        - asset: lib/fonts/tilda_sans/TildaSans-Regular.ttf
           weight: 400
-        - asset: assets/fonts/tilda_sans/TildaSans-Medium.ttf
+        - asset: lib/fonts/tilda_sans/TildaSans-Medium.ttf
           weight: 500
-        - asset: assets/fonts/tilda_sans/TildaSans-Semibold.ttf
+        - asset: lib/fonts/tilda_sans/TildaSans-Semibold.ttf
           weight: 600
-        - asset: assets/fonts/tilda_sans/TildaSans-Bold.ttf
+        - asset: lib/fonts/tilda_sans/TildaSans-Bold.ttf
           weight: 700
-        - asset: assets/fonts/tilda_sans/TildaSans-ExtraBold.ttf
+        - asset: lib/fonts/tilda_sans/TildaSans-ExtraBold.ttf
           weight: 800
-        - asset: assets/fonts/tilda_sans/TildaSans-Black.ttf
+        - asset: lib/fonts/tilda_sans/TildaSans-Black.ttf
           weight: 900
   #   - family: Trajan Pro
   #     fonts:
