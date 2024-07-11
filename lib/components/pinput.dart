@@ -27,7 +27,7 @@ class KuiPinput extends StatelessWidget {
           width: 64,
           height: 80,
           textStyle: KuiTextStyles.h2,
-          margin: const EdgeInsets.symmetric(horizontal: 8),
+          margin: EdgeInsets.zero,
           decoration: BoxDecoration(
             color: KuiColors.brown90,
             borderRadius: BorderRadius.circular(1234),
@@ -46,6 +46,7 @@ class KuiPinput extends StatelessWidget {
       focusedPinTheme: focusedPinTheme,
       submittedPinTheme: submittedPinTheme,
       length: length,
+      mainAxisAlignment: MainAxisAlignment.center,
       validator: validator,
       showCursor: true,
       onCompleted: onCompleted,
