@@ -37,16 +37,25 @@ class KuiChip extends StatelessWidget {
           decoration: BoxDecoration(
             color: KuiColors.brown80,
             borderRadius: borderRadius,
+            border: isSelected
+                ? Border.all(
+                    color: KuiColors.yellow50,
+                    width: 2,
+                  )
+                : null,
+            boxShadow: isSelected
+                ? [
+                    BoxShadow(
+                      blurRadius: 0,
+                      spreadRadius: 4,
+                      color: KuiColors.yellow50.withOpacity(0.3),
+                    )
+                  ]
+                : null,
           ),
           child: Container(
             padding: padding,
             decoration: BoxDecoration(
-              border: isSelected
-                  ? Border.all(
-                      color: KuiColors.yellow50,
-                      width: 2,
-                    )
-                  : null,
               borderRadius: selectedLineRadius,
             ),
             child: Center(child: child),
