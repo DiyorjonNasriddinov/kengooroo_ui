@@ -24,6 +24,7 @@ class KuiTextField extends StatelessWidget {
     this.supportingTextStyle = KuiTextStyles.text16Semibold,
     TextInputType? keyboardType,
     this.inputFormatters,
+    this.style,
   }) : keyboardType = keyboardType ??
             (maxLines == 1 ? TextInputType.text : TextInputType.multiline);
 
@@ -32,6 +33,7 @@ class KuiTextField extends StatelessWidget {
   final String? label;
   final TextStyle labelTextStyle;
   final String? supportingText;
+  final TextStyle? style;
   final TextStyle supportingTextStyle;
   final Widget? prefixIcon;
   final Widget? suffixIcon;
@@ -65,6 +67,7 @@ class KuiTextField extends StatelessWidget {
             borderRadius: BorderRadius.circular(100),
           ),
           child: TextField(
+            style: style,
             controller: controller,
             onChanged: onChanged,
             maxLength: maxLength,
